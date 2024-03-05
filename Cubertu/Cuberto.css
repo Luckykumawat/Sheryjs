@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: Matter,sans-serif;
+}
+
+*::selection{
+    background-color: black;
+
+     color: white;
+     -webkit-text-stroke: 1px black;
+
+}
+
+.pointer{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear .2s;
+    mix-blend-mode: difference;
+}
+
+html, body{ 
+    width: 100%;
+    height: 100%;
+    
+}
+
+#main{
+    width: 100%; z-index: 9;
+    mix-blend-mode: difference;
+
+} 
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav .img img{
+    width: 6vw;
+}
+
+.text i img{
+    width: 3vw;
+}
+
+#fpage{
+    width: 100%;
+    height: 10vh;
+    padding: 15vh 25vw;
+    font-size: 3vw;
+    font-weight: 10;
+}
+
+.vh{
+    display: flex;
+    align-items: center;
+}
+#fpage .v{
+    width: 10vw;
+    height: 10vh;
+    border-radius: 40px;
+}
+
+#fpage .v video{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    
+}
+
+#fvideo{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    padding: 40vh 0 0 0;
+}
+
+#fvideo video{
+    /* width: 100%; */
+    height: 140vh;
+    
+}
+
+#fsecond{
+    width: 49.4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6vh 25vw;
+}
+
+#fsecond .fleft{
+    width: 50%;
+    border: black;
+}
+
+#fsecond .fleft video{
+    width: 25vw;
+}
+
+#fsecond .fright{
+    width: 45vw;
+}
+
+#fsecond .fright .para{
+    width: 100%;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+#fsecond .fright button{
+    margin: 3vw 0;
+    padding: 2vw;
+    border-radius: 40px;
+    border: 1px solid gray;
+}
+
+#fthird{
+    width: 100% ;
+    height: 400vh;
+    background-color: black;
+    padding: 15vh 25vw;
+}
+
+.fthchild{
+    color: aliceblue;
+    font-size: 6vw;
+    font-weight: 200;
+}
+
+.fthed2{
+    display: flex;
+    width: 8vw;
+    height: 16vh;
+   
+
+}
+
+.fthed2 video{
+    width: 7vw;
+    height: 22vh;
+    border-radius: 25px;
+
+}
+.fthsubson{
+    color: aliceblue;
+    font-size: 6vw;
+    font-weight: 200;
+}
+
+#ftbody{
+    width:74.65%;
+    height: 99.6%;
+    margin: 18vh 0;
+    display: flex;
+    gap: 2vw;
+}
+
+.leftcard{
+    height: 90%;
+    width: 40%;
+}
+
+h4{
+    padding: 1.7vw 0 0 0; 
+    color: aliceblue;
+}
+
+.crad{
+    margin-top: 10vh;
+}
+
+.rightcard{
+    margin-top: 30vh;
+    height: 70%;
+    width: 40%;
+}
+
+.card0{
+    border-radius: 30px;
+    height: 60vh;
+    margin-top: 10vh;
+
+}
+
+.card1{
+    height: 44vh;
+    border-radius: 20px;
+    margin-top: 10vh;
+
+}
+
+#fforth{
+    width: 100%;
+    height: 51vh;
+    border-radius: 50px;
+}
+
+
+.ffhed{
+    padding: 3vh 25vw;
+    font-size: 3vw;
+    font-weight: 100;
+
+}
+
+#fforth .ffhed h1 .ffg{
+font-weight: 100;
+font-size: 2vh;
+font-family: Matter;
+
+}
+
+#ffbody{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding: 0 25vw;
+    gap: 1vw;
+
+}
+
+.ffv{
+    width: 40%;
+    height: 50%;
+    
+}
+
+.ffv video{
+    border:2px solid transparent;
+    width: 60%;
+    /* background-color: red; */
+    
+}
+
+
+#ffbody .para{
+    width: 23%;
+        margin-left: -173px;
+    }
+
+.para1{
+   padding: 1vw 0;
+}
+
+#ffifth{
+    padding: 3vh 25vw;
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(27, 26, 26);
+}
+
+.heding{
+    color: aliceblue;
+    font-size: 2.5vw;
+    width: 40%;
+}
+
+.sidcards{
+    width: 84.76%;
+    height: 55vh;
+}
+
+#cs{
+    padding: 5vh 14vw;
+    width: 30%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+
+#cards{
+    padding: 5vh 0;
+    width: 100%;
+    border-radius: 20px;
+    height: 45vh;
+}
+
+#cards h3{
+    color: #fff;
+}
+.card{
+    margin: 1.5vw 0;
+    border-radius: 20px;
+    width: 25vw;
+    height: 28vh;
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.bt{
+    padding: 1vh 1.5vw;
+    border-radius: 20px;
+    border: 2px solid rgb(238, 236, 236);
+    background-color: #fff;
+}
+
+#para2{
+    width: 100%;
+    padding: 5vh 17vw;
+}
+#para2 p{
+    color: #fff;
+    width: 20%;
+    padding: 5vh 0;
+
+
+}
+
+#para2 button{
+    padding: 1vw
+}
+
+button{
+    border-radius: 40px;
+    background-color: black;
+    color: #fff;
+}
+ 
