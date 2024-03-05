@@ -1,0 +1,332 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+#main{
+    width: 100%;
+}
+
+#nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 10vw;
+    align-items: center;
+}
+#nav .nleft{
+    display: flex;
+    gap: 2vw;
+}
+
+#nav a{
+    display: inline-block;
+     text-decoration: none;
+     color: black;
+    font-weight: 400;
+    font-size: 1.2vw;
+}
+
+#nav .center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    font-size: 1.3vw;
+}
+
+#hero{
+    display: flex;
+    justify-content : space-between;
+    align-items: center;
+    /* width: 100%; */
+    margin-top: 15vw;
+    padding: 0 10vw;
+}
+
+#sustain {
+    width: 15vw;
+}
+
+
+#sustain #susimg{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 20vw;
+}
+
+#sustain p{
+    width: 100%;
+    opacity: .8;
+    margin: 10px 0;
+
+}
+
+#susimg img{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 130%;
+    height: 130%;
+    object-fit: cover;
+
+}
+
+#Efemr{
+    width: 30vw;
+    min-height: 40vw;
+}
+
+#Efemr .eftext{
+    position: absolute;
+    top:38%;
+    left: 47.5%;
+    transform: translate(-50%, -50%);
+}
+
+#Efemr h1{
+    font-size: 6vw;
+    letter-spacing: -.3vw;
+    font-weight: 600;
+    line-height: 4.5vw;
+}
+
+#effimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#Efemr p{
+    width: 90%;
+    font-size: 1.2vw;
+    /* opacity: .4; */
+    font-weight: 800;
+    margin-top: 1vw;
+}
+
+#visit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+#visit .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 2.3vw;
+    height: 2.3vw;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#visit h3, .circle{
+    opacity: .8;
+    font-weight: 300;
+}
+
+#motiv{
+    margin-top: 3vw;
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#motiv h2{
+    opacity: .4;
+}
+
+#motiv p{
+    align-items: center;
+    text-align: right;
+    width: 70%;
+    padding-top: 15px;
+    font-size:   2vw;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: -.1vw;
+}
+
+#motiv span{
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 50px;
+    margin-bottom: -12px;
+   }
+
+.one{
+    width: 5vw;
+    height: 3vw;
+    background-image: url(bluegirl.jpg);
+    background-position: 0% 60%;
+    background-size: cover;
+   }
+
+   .two{
+    width: 6vw;
+    height: 3vw;
+    background-image: url(shaljam.jpg);
+    background-position: 0% 50%;
+    background-size: cover;
+    
+   }
+
+   .three{
+    width: 5.5vw;
+    height: 3vw;
+    background-image: url(grass.jpg);
+    background-position: 0% 90%;
+    background-size: cover;
+   }
+
+#harmony{
+    margin-top: 3vw;
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+    display: flex;
+    justify-content: space-between;
+}
+#harmony #leftimgtext{
+    width: 20vw;
+    height: 38vw;
+}
+
+#harmony #leftimgtext .img{
+    width: 100%;
+    height: 80%;
+}
+
+#harmony #leftimgtext .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#harmony #leftimgtext  .text p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    letter-spacing: -.1px;
+    padding: 10px 0;
+    opacity: .7;
+}
+
+#harmony #leftimgtext  h1 {
+    margin-top: 12px;
+}
+
+#harmony #rightimgtext{
+    width: 30vw;
+    height: 57vw;
+}
+
+#harmony #rightimgtext .img{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(117, 112, 112);
+}
+
+#harmony #rightimgtext .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#harmony #rightimgtext .text2{
+    text-align: right;
+
+}
+
+#harmony #rightimgtext .text2 p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    letter-spacing: -.1px;
+    padding: 10px 0;
+    opacity: .7;
+}
+
+#pack{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#pack #pick{
+    width: 60%;
+    height: 35vw;
+    overflow: hidden;
+
+}
+
+#pack #pick img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:0% 75%;
+
+}
+
+#pack #right-text{
+    /* width: 30%; */
+    padding-left: 4vw;
+    
+}
+
+#pack #right-text p{
+    margin-top: 2vw;
+    width: 50%;
+    font-size: 1.3vw;
+}
+
+#last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#last video{
+    opacity: 0;
+    width: 100%;
+    position: relative;
+}
+
+.think{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 9999;
+    background-color: white;
+    justify-content: center;
+    position: absolute;
+    top: 470%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3vw;
+    border-radius: 1vw;
+    
+}
+
+.think button{
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 1.5vw 3vw;
+    border-radius: 100px;
+    margin-top: 10px;
+    border: 1px solid #756c6c;
+    
+   
+}
+
+// write a code for center a div?
